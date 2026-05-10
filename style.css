@@ -210,3 +210,40 @@ nav a:hover {
     text-shadow: 0 4px 20px #00000080;
 }
 
+.vision {
+    background: linear-gradient(transparent,#2b2237,#2b2237,#2b2237);
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    height:280px;
+    position: fixed;
+    bottom: 0;
+}
+
+.vision-content {
+    max-width: 100%;
+    text-align: center;
+}
+
+.vision h2 {
+    font-family: zomboid;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+}
+
+.vision p {
+    color: #d7d2df;
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    text-align: left;
+    column-count: 2;
+    width: 60%;
+}
+
+.vision img {
+    height:10px;
+}
