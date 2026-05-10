@@ -132,6 +132,9 @@ nav a:hover {
     transform: translateY(-3px);
 }
 
+nav .ri-arrow-right-up-line{
+    color:#957a6b;
+}
 
 .hero {
     position: relative;
