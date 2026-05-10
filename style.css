@@ -106,3 +106,76 @@ nav a:hover {
     transform: translateY(-3px);
 }
 
+
+.hero {
+    position: relative;
+    min-height: calc(100vh - 90px - 200px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.shinsei-content {
+    position: relative;
+    z-index: 3;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shinsei-content h4 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.shinsei-content h1 {
+    font-family: zomboid;
+
+    font-size: 8rem;
+    line-height: 1;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.shinsei-content h4:last-of-type {
+    font-size: 26px;
+}
+
+.shinsei-content button {
+    margin-top: 30px;
+    padding: 18px 60px;
+    border: none;
+    border-radius: 10px;
+    background: #e5c66b;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.shinsei-content button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px #00000066;
+}
+
+.hero-character {
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.shinsei-content h1,
+.shinsei-content h4 {
+    text-shadow: 0 4px 20px #00000080;
+}
