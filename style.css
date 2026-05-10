@@ -68,7 +68,6 @@ main {
 
 main::before {
     content: "";
-
     position: absolute;
     inset: 0;
     background: var(--bg-color);
@@ -84,10 +83,8 @@ header,
 
 header {
     display: flex;
-
     justify-content: space-between;
     align-items: center;
-
     padding: 20px 80px;
 }
 
@@ -173,7 +170,6 @@ nav .ri-arrow-right-up-line {
 }
 
 .shinsei-content .top-txt {
-
     left: 0;
     top: -3px;
 }
@@ -191,8 +187,6 @@ nav .ri-arrow-right-up-line {
     margin-bottom: 10px;
     text-transform: uppercase;
 }
-
-
 
 .shinsei-content button {
     margin-top: 30px;
