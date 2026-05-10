@@ -1,6 +1,12 @@
 :root {
+    --bg-color: #00000073;
+    --bg-color2: #2b2237;
+
     --text-color: #ffffff;
     --text-color2: #000000;
+    --text-color3: #957a6b;
+    --text-color4: #00000080;
+    --text-color5: #2b2237;
 }
 
 @font-face {
@@ -65,7 +71,7 @@ main::before {
 
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.45);
+    background: var(--bg-color);
     z-index: 1;
 }
 
@@ -132,8 +138,8 @@ nav a:hover {
     transform: translateY(-3px);
 }
 
-nav .ri-arrow-right-up-line{
-    color:#957a6b;
+nav .ri-arrow-right-up-line {
+    color: var(--text-color3);
 }
 
 .hero {
@@ -174,7 +180,7 @@ nav .ri-arrow-right-up-line{
 
 .shinsei-content .bottom-txt {
     right: 0;
-    bottom:66px;
+    bottom: 66px;
 }
 
 .shinsei-content h1 {
@@ -206,6 +212,7 @@ nav .ri-arrow-right-up-line{
 .shinsei-content button:active {
     transform: scale(0.95);
 }
+
 .hero-character {
     height: 85%;
     position: absolute;
@@ -219,11 +226,11 @@ nav .ri-arrow-right-up-line{
 
 .shinsei-content h1,
 .shinsei-content h4 {
-    text-shadow: 0 4px 20px #00000080;
+    text-shadow: 0 4px 20px var(--text-color4);
 }
 
 .vision {
-    background: linear-gradient(transparent, #2b2237, #2b2237, #2b2237);
+    background: linear-gradient(transparent, var(--bg-color2), var(--bg-color2), var(--bg-color2));
     padding: 20px 10px;
     display: flex;
     flex-direction: column;
@@ -247,7 +254,7 @@ nav .ri-arrow-right-up-line{
 }
 
 .vision p {
-    color: #d7d2df;
+    color: var(--text-color5);
     font-size: 13px;
     line-height: 1.5;
     letter-spacing: 0.3px;
