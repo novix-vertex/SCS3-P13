@@ -151,7 +151,6 @@ nav .ri-arrow-right-up-line {
 
 .shinsei-content {
     position: relative;
-    z-index: 3;
 
     text-align: center;
 
@@ -186,6 +185,8 @@ nav .ri-arrow-right-up-line {
     letter-spacing: 6px;
     margin-bottom: 10px;
     text-transform: uppercase;
+    position: relative;
+    z-index: 1;
 }
 
 .shinsei-content button {
@@ -201,6 +202,8 @@ nav .ri-arrow-right-up-line {
     letter-spacing: 2px;
     cursor: pointer;
     transition: 0.3s;
+    position: relative;
+    z-index: 20;
 }
 
 .shinsei-content button:active {
@@ -213,7 +216,7 @@ nav .ri-arrow-right-up-line {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 100;
+    z-index: 5;
 
     animation: float 4s ease-in-out infinite;
 }
